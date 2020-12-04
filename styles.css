@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+}
+body {
+    background-color: black;
+    color: white;
+    }
+    
+   
+    
+    
+    
+    .titulo {
+      font-size: 16px; 
+      color: yellow;
+       width: 100%;
+     
+    
+       
+       
+    }
+    
+    .fondo {
+      box-sizing: border-box;
+      padding: 5px;
+      margin: 18px;
+      font-size: 45px; 
+      letter-spacing: 18px;
+      background-image: linear-gradient(black, red, black);
+      text-align: center;
+      text-shadow: 5px 8px 10px #222;
+      
+    }
+    
+    .toyotita {
+    width: 320px;
+    height: 213px;
+    }
+    
+    .lolelu {  
+      width: 320px;
+      height: 213px;
+    }
+    .ek {
+      width: 320px;
+      height: 213px;
+    }
+    
+    .kimera {
+      width: 320px;
+      height: 213px;
+    }
+    
+    .lista {
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    footer {
+      text-align: center;
+      color: white;
+    }
+    
+   
+    }
