@@ -10,30 +10,21 @@ body {
     color: white;
     }
     
-   
-    
-    
-    
     .titulo {
       font-size: 16px; 
       color: yellow;
-       width: 100%;
-     
-    
-       
-       
+      margin: 10px;
     }
     
     .fondo {
       box-sizing: border-box;
       padding: 5px;
-      margin: 18px;
+      
       font-size: 45px; 
       letter-spacing: 18px;
       background-image: linear-gradient(black, red, black);
       text-align: center;
       text-shadow: 5px 8px 10px #222;
-      
     }
     
     .toyotita {
@@ -59,11 +50,31 @@ body {
       text-align: center;
       font-size: 30px;
     }
+
+    .mrstxt {
+color: rgb(151, 252, 147);
+margin: 0px 10px 80px 10px;
+
+    }
+
+    .laureltxt {
+color: rgb(151, 227, 250);
+margin: 0px 10px 80px 10px;
+    }
+
+  .ektxt {
+color: rgb(253, 81, 81);
+margin: 0px 10px 80px 10px;
+    }
+
+    .sigmatxt {
+      color:  rgb(231, 159, 49);
+      margin: 0px 10px 80px 10px;
+    }
     
     footer {
       text-align: center;
       color: white;
+      margin: 0px 10px 80px 10px;
     }
     
-   
-    }
