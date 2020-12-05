@@ -3,7 +3,7 @@
   padding: 0;
 }
 .wrapper {
-  width: 100%;
+  max-width: 100%;
 }
 body {
     background-color: black;
@@ -17,14 +17,14 @@ body {
     }
     
     .fondo {
-      box-sizing: border-box;
       padding: 5px;
-      
       font-size: 45px; 
       letter-spacing: 18px;
       background-image: linear-gradient(black, red, black);
       text-align: center;
       text-shadow: 5px 8px 10px #222;
+      margin-bottom: 30px;
+      margin-top: 20px;
     }
     
     .toyotita {
@@ -46,11 +46,27 @@ body {
       height: 213px;
     }
     
-    .lista {
-      text-align: center;
-      font-size: 30px;
-    }
 
+    
+    nav {
+      background-color: rgb(141, 214, 73);
+      padding: 10px;
+    }
+    ul {
+      background-color: rgb(9, 15, 3);
+      padding: 5px;
+    }
+    li {
+      background-color: rgb(156, 241, 145);
+      color: rgb(15, 7, 7);
+      margin: 5px;
+      text-align: center;
+    }
+a {
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+}
     .mrstxt {
 color: rgb(151, 252, 147);
 margin: 0px 10px 80px 10px;
