@@ -5,7 +5,7 @@
 
 }
 .wrapper {
-  max-width: 900px;
+  max-width: 1100px;
 }
 body {
     background-color: black;
@@ -74,18 +74,25 @@ body {
 
     
     nav {
-      background-color: rgb(141, 214, 73);
+      background-color: rgb(128, 7, 121);
       padding: 10px;
+     
+      
     }
     ul {
       background-color: rgb(9, 15, 3);
       padding: 5px;
+      text-align: center;
+      
+     
+      
     }
     li {
-      background-color: rgb(156, 241, 145);
+      background-color: rgb(46, 241, 20);
       color: rgb(15, 7, 7);
       margin: 5px;
       text-align: center;
+     
     }
 a {
   color: red;
@@ -128,7 +135,7 @@ text-align: center;
         float: left;  
       }
     .titulo { 
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 30px;
       }
       .fondo {
@@ -167,6 +174,14 @@ text-align: center;
 }
 
 @media (min-width: 1024px) {
+  li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
 
 }
       
