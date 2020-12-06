@@ -154,13 +154,14 @@ text-align: center;
         width: 50%;
         float: left;
         margin-left: 20px;
+        
       }
       .milaurel {
+        
       }
       .miek {
         width: 50%;
-        float: right;
-        margin-top: 
+        float: right; 
       }
       .misigma {
         width: 50%;
@@ -189,16 +190,17 @@ text-align: center;
   .mimrs {
     width: 30%;
     float: left;
-    margin-left: 20px;
+    margin: 10px;
   }
   .milaurel {
     width: 30%;
     float: left;
+    margin: 10px;
   }
   .miek {
     width: 30%;
     float: left;
-    margin-top: 
+    margin: 10px; 
   }
   .misigma {
     width: 30%;
