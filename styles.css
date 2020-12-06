@@ -16,6 +16,17 @@ body {
       font-size: 16px; 
       color: yellow;
       margin: 10px;
+      
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    .logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      
     }
     
     .fondo {
@@ -32,20 +43,32 @@ body {
     .toyotita {
     width: 320px;
     height: 213px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
     
     .lolelu {  
       width: 320px;
       height: 213px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     .ek {
       width: 320px;
       height: 213px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     .kimera {
       width: 320px;
       height: 213px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     
 
@@ -72,22 +95,26 @@ a {
     .mrstxt {
 color: rgb(151, 252, 147);
 margin: 0px 10px 80px 10px;
+text-align: center;
 
     }
 
     .laureltxt {
 color: rgb(151, 227, 250);
-margin: 0px 10px 80px 10px;
+margin:  0px 10px 80px 10px;
+text-align: center;
     }
 
   .ektxt {
 color: rgb(253, 81, 81);
 margin: 0px 10px 80px 10px;
+text-align: center;
     }
 
     .sigmatxt {
       color:  rgb(231, 159, 49);
       margin: 0px 10px 80px 10px;
+      text-align: center;
     }
     
     footer {
@@ -108,16 +135,41 @@ margin: 0px 10px 80px 10px;
         margin-top: 40px;
       }
 
-      .grab2 {
-        width: 75%;
-        padding-left: 50px;
-        padding-right: 50px;
+      .grab4 {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
         margin: auto;
-        max-width: 960px;
+        max-width: 768px;
+        
       }
-      
+      .mimrs {
+        width: 50%;
+        float: left;
+        margin-left: 20px;
+      }
+      .milaurel {
+        width: 50%;
+        float: right;
+      }
+      .miek {
+        width: 50%;
+        float: right;
+        margin-top: 
+      }
+      .misigma {
+        width: 50%;
+        margin-left: 20px;
+      }
+      .laureltxt {
+        margin: 0px;
+      }
+}
 
-      }
+@media (min-width: 1024px) {
+
+}
+      
 
 
     
