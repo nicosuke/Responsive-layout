@@ -4,18 +4,17 @@
   padding: 0;
 
 }
-.wrapper {
-  max-width: 1100px;
-}
 body {
     background-color: black;
     color: white;
     }
     
     .titulo {
-      font-size: 16px; 
+      font-size: 20px; 
       color: yellow;
-      margin: 10px;
+      margin: auto;
+
+  max-width: 300px;
       
       text-align: center;
     }
@@ -45,31 +44,33 @@ body {
     width: 320px;
     height: 213px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-top: 30px;
+    border: solid;
+    
     }
     
     .lolelu {  
       width: 320px;
       height: 213px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
+      border: solid;
     }
     .ek {
       width: 320px;
       height: 213px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
+      border: solid;
     }
     
     .kimera {
       width: 320px;
       height: 213px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
+      border: solid;
     }
     
 
@@ -77,13 +78,16 @@ body {
     nav {
       background-color: rgb(128, 7, 121);
       padding: 10px;
-     
+      max-width: 1020px;
+     margin: auto;
       
     }
     ul {
       background-color: rgb(9, 15, 3);
       padding: 5px;
       text-align: center;
+      
+      
       
      
       
@@ -93,6 +97,8 @@ body {
       color: rgb(15, 7, 7);
       margin: 5px;
       text-align: center;
+      text-decoration: none;
+      
      
     }
 a {
@@ -102,27 +108,34 @@ a {
 }
     .mrstxt {
 color: rgb(151, 252, 147);
-margin: 0px 10px 80px 10px;
+margin: auto;
+padding-bottom:28px;
 text-align: center;
-
-    }
+max-width: 300px;
+}
 
     .laureltxt {
 color: rgb(151, 227, 250);
-margin:  0px 10px 80px 10px;
+margin:  auto;
 text-align: center;
+padding-bottom:28px;
+max-width: 300px;
     }
 
   .ektxt {
 color: rgb(253, 81, 81);
-margin: 0px 10px 80px 10px;
+margin: auto;
+max-width: 300px;
 text-align: center;
+padding-bottom:28px;
     }
 
     .sigmatxt {
       color:  rgb(231, 159, 49);
-      margin: 0px 10px 80px 10px;
+      margin: auto;
+      max-width: 300px;
       text-align: center;
+      padding-bottom:100px;
     }
     
     footer {
@@ -133,12 +146,19 @@ text-align: center;
 
     @media (min-width: 768px) {
       .logo {
-        float: left;  
+        
+        width: 380px;
+        margin-top: 20px;
+        
       }
+
     .titulo { 
     font-size: 24px;
-    margin-top: 30px;
+    margin: auto;
+    
+    max-width: 768px;
       }
+      
       .fondo {
         margin-top: 40px;
       }
@@ -158,7 +178,8 @@ text-align: center;
         
       }
       .milaurel {
-        
+        float: left;
+       
       }
       .miek {
         width: 50%;
@@ -168,10 +189,10 @@ text-align: center;
         width: 50%;
         margin-left: 20px;
       }
-      .laureltxt {
-        margin: 0px;
+      .lolelu {
+        margin-top: 30px;
       }
-}
+
 
 @media (min-width: 1024px) {
   li {
@@ -202,6 +223,8 @@ text-align: center;
     width: 30%;
     float: left;
     margin: 10px; 
+    margin-top: 40px;
+
   }
   .misigma {
     width: 30%;
